@@ -6,8 +6,7 @@
 		<div class="article-actions">
 			<%= link_to "Edit",edit_article_path(@article),class:"btn btn-xs btn-primary" %>
 			<%= link_to "Delete", article_path(@article),method: :delete,
-			    data: {confirm: "Are you sure want
-				  to delete the article?"},
+			    data: {confirm: "Are you sure want to delete the article?"},
 					class: "btn btn-xs btn-danger" %>
 			<%= link_to "Back",articles_path,class:"btn btn-xs btn-success" %>
 		</div>

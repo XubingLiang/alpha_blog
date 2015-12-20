@@ -32,7 +32,7 @@ $navbar-default-bg: #383838 ;
 .jumbotron h1{
 	text-align:center;
 	margin-bottom: 30px;
-	letter0spacing : -1px;
+	letter-spacing : -1px;
 	font-weight: bold;
 }
 
@@ -45,6 +45,17 @@ $navbar-default-bg: #383838 ;
 	border-top: 1px solid #eaeaea;
 	padding-top: 5px;
 
+}
+
+.article-title{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.article-body{
+	border-top:1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .description{
